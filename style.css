@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.screen {
+  width: 50%;
+  background-color: blue !important;
+  border-radius: 5px;
+}
+
+.controls {
+  display: flex;
+  width: 50%;
+}
+
+/* .fa-play {
+  background-color: green;
+}
+
+.fa-stop {
+  background-color: red;
+} */
+
+.progress {
+  background-color: black !important;
+  border-radius: 5px;
+}
